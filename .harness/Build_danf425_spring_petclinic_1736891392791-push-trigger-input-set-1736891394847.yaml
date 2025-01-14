@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_danf425_spring_petclinic_1736891392791-push-trigger-input-set
+  identifier: Build_danf425_spring_petclinic_1736891392791pushtriggerinputset
+  orgIdentifier: sandbox
+  projectIdentifier: soto_sandbox
+  pipeline:
+    identifier: Build_danf425_spring_petclinic_1736891392791
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
